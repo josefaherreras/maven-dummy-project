@@ -11,7 +11,7 @@ pipeline {
 
   stages { 
 
-    stage('TEST'){
+    stage('TEST1'){
 
       steps {
         sh 'mvn clean install compile test'
